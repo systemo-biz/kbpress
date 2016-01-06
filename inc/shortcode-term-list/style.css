@@ -1,0 +1,15 @@
+
+.term-item-wrapper {
+    padding: 20px;
+}
+
+
+.term-item-list-subterm li,
+.term-item-list-posts li {
+  list-style-type: none;
+}
+
+
+.term-item-wrapper .glyphicon {
+  color: gray;
+}
