@@ -88,7 +88,7 @@ class term_list_shortcode
                   ?>
                   <li>
                     <span class='glyphicon glyphicon-info-sign'></span>
-                    <a href="">
+                    <a href="<?php echo get_permalink($item->ID); ?>">
                       <?php echo $item->post_title; ?>
                     </a>
                   </li>
